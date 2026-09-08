@@ -11,7 +11,9 @@ $$
 
 ## Known Plaintext
 
-An attacker can derive the key byte if they know the message bytes and the corresponding ciphertext bytes. The key is the ciphertext and the message combined by the XOR operation. This can be represented as $$k_i = c_i \oplus m_i$$. If the key is shorter than the message, it will repeat itself. Using pattern recognition from the repetition, you can reveal the key. If the key is the same length or longer than the message, the attacker will not be able to use this tactic[2]. 
+An attacker can derive the key byte if they know the message bytes and the corresponding ciphertext bytes. The key is the ciphertext and the message combined by the XOR operation. This can be represented as $$
+k_i = c_i \oplus m_i
+$$ If the key is shorter than the message, it will repeat itself. Using pattern recognition from the repetition, you can reveal the key. If the key is the same length or longer than the message, the attacker will not be able to use this tactic[2]. 
 
 ## Key reuse
 
