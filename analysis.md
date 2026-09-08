@@ -5,9 +5,7 @@
 ## Correctness
 
 In xor_vigenere.py, an encrypted message can be decrypted and output the same starting message. The function xor_operation takes in values for a message and a key. An XOR operation is conducted on each bit for the message using the corresponding bit from the key, with the key repeating in cases where the message is shorter than the key. Xor_operation is reversible and used for encryption and decryption in this program. To prove $\mathsf{Dec}_k(\mathsf{Enc}_k(m))=m$ for every $m\in\mathbb{B}^*$ and every $k\in\mathbb{B}^+$, we need to look at how an XOR operation works. Encryption uses an XOR operation against the message and the key, and decryption uses an XOR operation against the result of the encryption XOR. This means that the key (k) performs the operation on itself, leaving just the message (m) after decryption[1]. This can be represented as 
-$$
-(m_i\oplus k_i)\oplus k_i=m_i
-$$
+$(m_i \oplus k_i) \oplus k_i = m_i$
 
 ## Known Plaintext
 
