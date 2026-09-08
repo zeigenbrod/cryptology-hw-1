@@ -32,12 +32,12 @@ The confidentiality obtained is different for each case. For the case of a short
 
 # Sources
 ## 1. Carnegie Mellon University 
-[text](https://s22.cs251.com/Text/19_Cryptography/media_upload/Cryptography.pdf)
+[Cryptography](https://s22.cs251.com/Text/19_Cryptography/media_upload/Cryptography.pdf)
 
 ## 2. NVISO Labs
-[text](https://blog.nviso.eu/2023/10/12/xor-known-plaintext-attacks/)
+[XOR Known-Plaintext Attacks](https://blog.nviso.eu/2023/10/12/xor-known-plaintext-attacks/)
 
 ## 3. Crypto 101
-[text](https://crypto101.multun.net/exclusive-or.html)
+[Exclusive or](https://crypto101.multun.net/exclusive-or.html)
 
-## 4. [text](https://www.cs.toronto.edu/~david/course-notes/csc110-111/08-cryptography/02-one-time-pad.html)
+## 4. [The One-Time Pad and Perfect Secrecy](https://www.cs.toronto.edu/~david/course-notes/csc110-111/08-cryptography/02-one-time-pad.html)
