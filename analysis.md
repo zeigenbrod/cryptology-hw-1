@@ -15,7 +15,7 @@ If the key is shorter than the message, it will repeat itself. Using pattern rec
 
 ## Key reuse
 
-When two messages of equal length are encrypted using the same repeating key, you can derive how the two messages relate to each other, and the key is canceled out of the messages. This can be represented as $$ c_i \oplus c'_i = (m_i \oplus k_i) \oplus (m'_i \oplus k_i) = m_i \oplus m'_i$$.
+When two messages of equal length are encrypted using the same repeating key, you can derive how the two messages relate to each other, and the key is canceled out of the messages. This can be represented as $c_i \oplus c'_i = (m_i \oplus k_i) \oplus (m'_i \oplus k_i) = m_i \oplus m'_i$
 The result is the two messages combined together with the XOR operation. The actual decrypted messages in plaintext are not revealed with this alone. Even so, an attacker can use the information from performing the XOR operation on the two ciphertexts to reveal information about the decrypted messages[3]. 
 
 ## One time pad
