@@ -40,4 +40,5 @@ The confidentiality obtained is different for each case. For the case of a short
 ## 3. Crypto 101
 [Exclusive or](https://crypto101.multun.net/exclusive-or.html)
 
-## 4. [The One-Time Pad and Perfect Secrecy](https://www.cs.toronto.edu/~david/course-notes/csc110-111/08-cryptography/02-one-time-pad.html)
+## 4. University of Toronto
+[The One-Time Pad and Perfect Secrecy](https://www.cs.toronto.edu/~david/course-notes/csc110-111/08-cryptography/02-one-time-pad.html)
